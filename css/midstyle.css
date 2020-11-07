@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Microsoft JhengHei;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #000000;
+}
+
+body h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 200px;
+  margin: 10px auto;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #ff9c30;
+}
+
+nav ul li a:hover {
+  background-color: #000;
+  border: 3px solid #fff;
+}
+
+.banner {
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;
+  background-color: #21967a;
+}
+
+.content .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.content .contentContainer img {
+  width: 150px;
+}
+
+.content .contentContainer .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+  margin-bottom: 0;
+}
+
+.content .contentContainer .info ul {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.content .contentContainer .info ul li {
+  margin: 10px 0;
+}
+
+.content .contentContainer .info ul li span {
+  display: block;
+}
+
+.content .intro {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content .intro li {
+  margin: 10px 0;
+}
+
+.hobby {
+  padding: 30px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.hobby ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.hobby ul h3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hobby ul i {
+  font-size: 150px;
+}
+
+.hobby ul .fa-volleyball-ball {
+  color: #ff9c30;
+}
+
+.hobby ul .fa-steam {
+  color: #21967a;
+}
+
+.hobby ul .fa-baseball-ball {
+  color: #fff;
+}
+
+.hobby ul .fa-palette {
+  color: #ff2b2b;
+}
+
+.hobby ul .fa-compact-disc {
+  color: #21967a;
+}
+
+.hobby ul .fa-futbol {
+  color: #fff;
+}
+
+.hobby ul .fa-play-circle {
+  color: #ff2b2b;
+}
+
+.hobby ul .fa-pizza-slice {
+  color: #ff9c30;
+}
+
+.comic {
+  padding: 30px;
+  margin: 0 auto;
+  width: 800px;
+  background-color: #ff2b2b;
+}
+
+.comic img {
+  width: 300px;
+}
+
+.comic h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.comicContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.music {
+  padding: 30px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.music img {
+  width: 300px;
+}
+
+.music h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.musicContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+}
+/*# sourceMappingURL=midstyle.css.map */

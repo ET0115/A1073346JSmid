@@ -1,0 +1,175 @@
+body{
+  background-color: #000000;
+  h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+}
+.header{
+  img{
+    width: 200px;
+    margin: 10px auto;
+  }
+}
+nav{
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    li{
+      margin: 0 10px;
+      a{
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        color:#fff;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px solid $orange;
+        &:hover{
+          background-color: #000;
+          border: 3px solid #fff;
+        }
+      }
+    }
+  }
+}
+.banner{
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto 30px auto; 
+}
+.content{
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;  
+  background-color: $green;
+  .contentContainer{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+    img{
+      width: 150px;
+    }
+    .info{
+      display: flex;
+      margin-left: 60px;
+      margin-bottom: 0;
+      ul{
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 20px;
+        li{
+          margin: 10px 0;
+          span{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .intro{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    li{
+      margin: 10px 0;
+    }
+  }
+}
+.hobby{
+  padding: 30px; 
+  margin: 0 auto;
+  width: 800px;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    h3{
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+    i{
+      font-size: 150px;
+    }
+    .fa-volleyball-ball{
+      color: $orange;
+    }
+    .fa-steam{
+      color: $green;
+    }
+    .fa-baseball-ball{
+      color: #fff;
+    }
+    .fa-palette{
+      color: $red;
+    }
+    .fa-compact-disc{
+      color: $green;
+    }
+    .fa-futbol{
+      color: #fff;
+    }
+    .fa-play-circle{
+      color: $red;
+    }
+    .fa-pizza-slice{
+      color: $orange;
+    }
+  }
+  
+}
+.comic{
+  padding: 30px; 
+  margin: 0 auto;
+  width: 800px;
+  background-color: $red;
+  img{
+    width: 300px;
+  }
+  h3{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+  &Container{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.music{
+  padding: 30px; 
+  margin: 0 auto;
+  width: 800px;
+  img{
+    width: 300px;
+  }
+  h3{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+  &Container{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+}
+// *{
+//   outline: 1px solid #fff;
+// }
