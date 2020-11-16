@@ -74,9 +74,85 @@ body h2 {
   margin-bottom: 30px;
 }
 
-.header img {
+.header {
   width: 200px;
   margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@-webkit-keyframes example {
+  0% {
+    color: #fff;
+    left: 0px;
+    top: 55px;
+  }
+  25% {
+    color: #fff;
+    left: 205px;
+    top: 55px;
+  }
+  50% {
+    color: #fff;
+    left: 0px;
+    top: 55px;
+  }
+  75% {
+    color: #ff9c30;
+    left: 205px;
+    top: 55px;
+  }
+  100% {
+    color: #ff9c30;
+    left: 0px;
+    top: 55px;
+  }
+}
+
+@keyframes example {
+  0% {
+    color: #fff;
+    left: 0px;
+    top: 55px;
+  }
+  25% {
+    color: #fff;
+    left: 205px;
+    top: 55px;
+  }
+  50% {
+    color: #fff;
+    left: 0px;
+    top: 55px;
+  }
+  75% {
+    color: #ff9c30;
+    left: 205px;
+    top: 55px;
+  }
+  100% {
+    color: #ff9c30;
+    left: 0px;
+    top: 55px;
+  }
+}
+
+.header .box {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 nav ul {

@@ -8,9 +8,27 @@ body{
   }
 }
 .header{
-  img{
-    width: 200px;
-    margin: 10px auto;
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  @keyframes example{
+    0% {color: #fff; left: 0px; top: 55px}
+    25% {color: #fff; left: 205px; top: 55px}
+    50% {color: #fff; left: 0px; top: 55px}
+    75% {color: $orange; left: 205px; top: 55px}
+    100% {color: $orange; left: 0px; top: 55px}
+  }
+  .box{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    // background: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: both; 
   }
 }
 nav{
